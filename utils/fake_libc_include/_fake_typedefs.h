@@ -94,8 +94,11 @@ typedef int pthread_spinlock_t;
 typedef int pthread_barrier_t;
 typedef int pthread_barrierattr_t;
 typedef int jmp_buf;
+typedef int rlim_t;
 typedef int sigjmp_buf;
 typedef int stack_t;
+typedef int siginfo_t;
+typedef int z_stream;
 
 /* C99 exact-width integer types */
 typedef int int8_t;

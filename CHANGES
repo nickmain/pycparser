@@ -1,3 +1,12 @@
++ Version 2.13 (??)
+
+  - Added support for offsetof() the way gcc implements it (special builtin
+    that takes a type as an argument).
+  - Added faked va_* macros (these are expected to come from stdarg.h)
+  - Added a bunch more fake headers and typedefs to support parsing C projects
+    like Git and SQLite without modifications to pycparser.
+  - Added support for empty initializer lists (#79).
+
 + Version 2.12 (21.04.2015)
 
   - This is a fix release for 2.11; the memory optimization with __slots__ on
